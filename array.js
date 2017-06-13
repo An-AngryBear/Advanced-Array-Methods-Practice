@@ -13,6 +13,7 @@ var newArray =
 	.sort(function(a, b) {
 		return a-b;
 	})
+	.reverse()
 // Then output (either in the DOM or the console) the sum of all the resulting numbers.
 	.reduce(function(acc, cur) {
 		return acc + cur;
